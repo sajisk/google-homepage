@@ -5,6 +5,10 @@
         box-sizing: border-box;
         font-family: 'DM Sans', sans-serif;
         }
+
+body{
+    height: 90vh;
+}
         
 .container{
     display:flex;
@@ -53,6 +57,7 @@
     display:flex;
     justify-content: space-between;
     width: 550px;
+
 }
 
 input{
@@ -61,4 +66,81 @@ input{
     padding: 0 15px;
     outline: none;
     border-style: hidden;
+}
+
+.two_button{
+    display: flex;
+    justify-content: center;
+    align-self: auto;
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px;
+    margin : 15px;
+    border:hidden;
+    outline:none;
+    background-color: white;
+    box-shadow: 3px 4px rgb(245, 245, 245);
+    border-radius: 3px;
+}
+
+button:hover{
+    cursor:-webkit-grabbing;
+    background-color: rgb(247, 243, 243);
+    box-shadow: 2px 2px rgb(216, 216, 216);
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    margin-left: 415px;
+    margin-top: 15px;
+}
+
+.list a:link{
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer{
+    background-color: rgb(242,242,242);
+    margin-top: 115px;
+    height: 10vh;
+}
+
+.footer h5{
+    margin-bottom: 5px;
+    margin-left: 30px;
+    padding-top: 3px;
+    color :rgb(124,120,122);
+
+}
+
+.footerlist{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+
+}
+
+hr {
+    color:rgb(218,220,224);
+}
+
+.footerlft a:link{
+
+        text-decoration: none;
+        color :rgb(124,120,122);
+        font-size: 0.9rem;
+        padding: 5px;
+}
+
+.footerrgt a:link{
+
+    text-decoration: none;
+    color :rgb(124,120,122);
+    font-size: 0.9rem;
+    padding: 5px;
 }

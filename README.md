@@ -17,11 +17,17 @@ Steps followed :
   
   //create header tag with div container containing 3 div insider it for link / icon / button
   //create main tage with div for google image and div search-bar that contain 2 div for two icon and outside div one form
-  
+  //create two button 
+  //create list items for language preference 
+  //create footer tag and add div with one h5 tag, 2 div that contain list item on left and right side
+
   //CSS
 
   //removed border padding of body 
   //display flex on header div conatiner and align to right hand side
   //display block on main div google image
   //display flex on main div search-bar and div content inside the search-bar
-  //styling position and forms.
+  //styling position and forms. 
+  //styling two button
+  //stylist list items for language prefernce 
+  //styling footer element with h5 tag and 2 list items at bottom
