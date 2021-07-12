@@ -22,7 +22,7 @@
     
 }
 
-.btnone button{
+.btnone > button{
     font-size: small;
     background-color: rgb(26,115,232);
     color:cornsilk;
@@ -77,7 +77,7 @@ button {
     border-radius: 3px;
 }
 
-button:hover{
+.two_button button:hover{
     cursor:-webkit-grabbing;
     background-color: rgb(247, 243, 243);
     box-shadow: 2px 2px rgb(216, 216, 216);
